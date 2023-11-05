@@ -1,0 +1,50 @@
+2023-11-05T12:17:18.347+05:30  INFO 10012 --- [restartedMain] com.cg.homeloan.HomeLoanApplication      : Starting HomeLoanApplication using Java 17.0.7 with PID 10012 (C:\Users\MSAHEBRA\Downloads\Homeloan5-main\Homeloan5-main\HomeLoan\bin\main started by msahebra in C:\Users\MSAHEBRA\Downloads\Homeloan5-main\Homeloan5-main\HomeLoan)
+2023-11-05T12:17:18.516+05:30  INFO 10012 --- [restartedMain] com.cg.homeloan.HomeLoanApplication      : No active profile set, falling back to 1 default profile: "default"
+2023-11-05T12:17:25.017+05:30  INFO 10012 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-05T12:17:25.019+05:30  INFO 10012 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.10]
+2023-11-05T12:17:25.418+05:30  INFO 10012 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-05T12:17:26.099+05:30  INFO 10012 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-05T12:17:26.318+05:30  INFO 10012 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.5.Final
+2023-11-05T12:17:26.324+05:30  INFO 10012 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-11-05T12:17:26.785+05:30  INFO 10012 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-05T12:17:27.511+05:30  INFO 10012 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-05T12:17:27.539+05:30  WARN 10012 --- [restartedMain] c.zaxxer.hikari.util.DriverDataSource    : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2023-11-05T12:17:28.702+05:30  INFO 10012 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7191f959
+2023-11-05T12:17:28.714+05:30  INFO 10012 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-05T12:17:29.897+05:30  INFO 10012 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-05T12:17:33.098+05:30  INFO 10012 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-05T12:17:35.613+05:30  INFO 10012 --- [restartedMain] c.c.h.controller.LoanFormController      : ---------- LoanForm Controller Called ----------
+2023-11-05T12:17:35.614+05:30  WARN 10012 --- [restartedMain] c.c.h.controller.LoanFormController      : ---------- LoanForm Controller Called ----------
+2023-11-05T12:17:35.710+05:30  INFO 10012 --- [restartedMain] c.c.h.controller.MortgageController      : ---------- Mortgage Form Controller Called ----------
+2023-11-05T12:17:35.711+05:30  WARN 10012 --- [restartedMain] c.c.h.controller.MortgageController      : ---------- Mortgage Form Controller Called ----------
+2023-11-05T12:17:35.799+05:30  INFO 10012 --- [restartedMain] c.c.h.controller.PropertyController      : ---------- Property Controller Called ----------
+2023-11-05T12:17:35.800+05:30  WARN 10012 --- [restartedMain] c.c.h.controller.PropertyController      : ---------- Property Controller Called ----------
+2023-11-05T12:17:36.012+05:30  WARN 10012 --- [restartedMain] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.cg.homeloan.repository.IUserRepository
+2023-11-05T12:17:36.381+05:30  WARN 10012 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-05T12:17:38.233+05:30  INFO 10012 --- [restartedMain] com.cg.homeloan.HomeLoanApplication      : Started HomeLoanApplication in 21.657 seconds (process running for 26.314)
+2023-11-05T12:20:18.557+05:30  INFO 10012 --- [Thread-5] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-11-05T12:20:20.537+05:30  INFO 10012 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-11-05T12:20:20.701+05:30  INFO 10012 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-11-05T12:20:22.279+05:30  INFO 10012 --- [restartedMain] com.cg.homeloan.HomeLoanApplication      : Starting HomeLoanApplication using Java 17.0.7 with PID 10012 (C:\Users\MSAHEBRA\Downloads\Homeloan5-main\Homeloan5-main\HomeLoan\bin\main started by msahebra in C:\Users\MSAHEBRA\Downloads\Homeloan5-main\Homeloan5-main\HomeLoan)
+2023-11-05T12:20:22.282+05:30  INFO 10012 --- [restartedMain] com.cg.homeloan.HomeLoanApplication      : No active profile set, falling back to 1 default profile: "default"
+2023-11-05T12:20:24.240+05:30  INFO 10012 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-05T12:20:24.241+05:30  INFO 10012 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.10]
+2023-11-05T12:20:24.343+05:30  INFO 10012 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-05T12:20:24.509+05:30  INFO 10012 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-05T12:20:24.556+05:30  INFO 10012 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-05T12:20:24.569+05:30  INFO 10012 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2023-11-05T12:20:24.571+05:30  WARN 10012 --- [restartedMain] c.zaxxer.hikari.util.DriverDataSource    : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2023-11-05T12:20:24.735+05:30  INFO 10012 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@eebfc7f
+2023-11-05T12:20:24.737+05:30  INFO 10012 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2023-11-05T12:20:24.865+05:30  INFO 10012 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-05T12:20:25.403+05:30  INFO 10012 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-05T12:20:26.468+05:30  INFO 10012 --- [restartedMain] c.c.h.controller.LoanFormController      : ---------- LoanForm Controller Called ----------
+2023-11-05T12:20:26.469+05:30  WARN 10012 --- [restartedMain] c.c.h.controller.LoanFormController      : ---------- LoanForm Controller Called ----------
+2023-11-05T12:20:26.547+05:30  INFO 10012 --- [restartedMain] c.c.h.controller.MortgageController      : ---------- Mortgage Form Controller Called ----------
+2023-11-05T12:20:26.548+05:30  WARN 10012 --- [restartedMain] c.c.h.controller.MortgageController      : ---------- Mortgage Form Controller Called ----------
+2023-11-05T12:20:26.646+05:30  INFO 10012 --- [restartedMain] c.c.h.controller.PropertyController      : ---------- Property Controller Called ----------
+2023-11-05T12:20:26.647+05:30  WARN 10012 --- [restartedMain] c.c.h.controller.PropertyController      : ---------- Property Controller Called ----------
+2023-11-05T12:20:26.827+05:30  WARN 10012 --- [restartedMain] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.cg.homeloan.repository.IUserRepository
+2023-11-05T12:20:26.924+05:30  WARN 10012 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-05T12:20:27.405+05:30  INFO 10012 --- [restartedMain] com.cg.homeloan.HomeLoanApplication      : Started HomeLoanApplication in 5.445 seconds (process running for 195.486)
+2023-11-05T12:22:09.028+05:30  INFO 10012 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
